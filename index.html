@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty - Benitez </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+       
+          <a class="logo" href="index.html">Rick&Morty</a>
+          <div class="nav-bar" >
+            <ul >
+              <li >
+                <a aria-current="page" href="index.html">Todes</a>
+              </li>
+              <li>
+                <button onclick="Mujer()">Mujeres</button>
+              </li>
+              <li>
+                <a >Hombres</a>
+              </li>
+              
+            </ul>
+ </div>  
+</nav>   
+<h1>Elenco de Rick And Morty</h1>
+<h3>Página</h3>
+<div class="pagina">
+<select name="" id="pag">
+<script>
+  for(let i = 1; i <= 42;i++) {
+    document.write(`<option style="position:center;" value="${i}">${i}</option>`);
+  }
+ 
+</script> 
+
+</select></div>
+<div class="contenedor">
+<div class="lista" id="lista">
+
+</div>
+
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
